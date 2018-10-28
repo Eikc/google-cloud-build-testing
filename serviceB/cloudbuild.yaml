@@ -1,5 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
+  dir: serviceB
 - name: 'gcr.io/cloud-builders/npm'
   args: ['test']
+  dir: serviceB
